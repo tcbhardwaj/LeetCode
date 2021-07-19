@@ -14,7 +14,7 @@ public class IntersectionTwoList {
 
         while(list != null){
             if(!nodeSet.add(list)){
-                return list;
+                System.out.println(list.val);
             }
             list = list.next;
         }
